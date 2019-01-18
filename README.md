@@ -42,6 +42,7 @@ Edit this document to include your answers after each question. Make sure to lea
     Mobile first means you're starting your website view content at a mobile size screen first. Then the view of the page will change as the view expands. Media queries will be added for expanding conditions. Desktop first is when the page is view at around 1024 px in width and the media queries will change the view as the width shrinks.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    The font fize 62.5% when using rem units help us convert rem units into px without having to manually convert it.
 
 4. How would you describe preprocessing to someone new to CSS?
 
