@@ -45,6 +45,7 @@ Edit this document to include your answers after each question. Make sure to lea
     The font fize 62.5% when using rem units help us convert rem units into px without having to manually convert it.
 
 4. How would you describe preprocessing to someone new to CSS?
+    Preprocessing lets us enhance basic CSS. It let us create one big file of saved CSS work you would like to use in future projects. It will help us organize the contents of CSS a lot better.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
