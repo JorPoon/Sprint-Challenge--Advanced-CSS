@@ -4,7 +4,7 @@
 
  .home {
 
-
+ 
     
 
   .intro {
@@ -12,15 +12,32 @@
     .custom-layout(center, center);
     flex-direction: column;
     color: @header-font-color;
+    width: 100%;
+    // background:  #d6dbdb;
+    .top-header {
+      width: 100%;
+      .custom-layout(center, center);
+      flex-direction: column;
+      background: rgb(224, 224, 224);
+
+      @media @mobile {
+        background: white;
+      }
+
+    }
 
     h1{
+      text-align: center;
       font-size: 3.6rem;
       padding: 10px 0;
+      
+      margin: 0;
     }
 
     nav {
       display: flex;
       padding: 10px 0;
+    
 
       a {
         text-decoration: none;
@@ -32,9 +49,17 @@
       
     }
 
+    .main-header {
+      @media @mobile {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
     h2 {
-      padding: 15px;
+      // margin: 0 auto;
       align-self: flex-start;
+      padding-left: 2%;
     }
 
     p {
@@ -53,6 +78,24 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+
+    @media @mobile {
+      flex-wrap: nowrap;
+
+      .blast {
+        width: 100%
+      }
+
+      .sky {
+        width: 0;
+        display: none;
+      }
+
+      .launch {
+        width: 0%;
+        display: none;
+      }
     }
   }
 
@@ -76,8 +119,19 @@
     display: flex;
     justify-content: center;
 
+    @media @mobile {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 15px 6px;
+    }
+
     .walk-text {
       width: 50%;
+
+      @media @mobile {
+        width: 100%;
+       
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -90,7 +144,13 @@
       .btn {
         .custom-btn( 25%, 24px, #22283A, white);
 
-        
+        @media @mobile {
+          width: 100%;
+          height: 50px;
+          align-content: space-around;
+          align-items: center;
+          justify-content:baseline;
+        }
         
       }
     }
@@ -104,6 +164,20 @@
         height: auto;
         border-radius: 10px;
       }
+
+      @media @mobile {
+        order: -1;
+        width: 100%;
+
+      }
+    }
+  }
+
+  footer {
+    background:  rgb(224, 224, 224);
+
+    @media @mobile {
+      background: white;
     }
   }
 }// home
