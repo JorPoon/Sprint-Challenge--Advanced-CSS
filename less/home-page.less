@@ -9,10 +9,8 @@
 
   .intro {
 
-    display:flex;
+    .custom-layout(center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: @header-font-color;
 
     h1{
@@ -89,8 +87,12 @@
         margin-bottom: 26px;
       }
 
-      // .btn {
-      // }
+      .btn {
+        .custom-btn( 25%, 24px, #22283A, white);
+
+        
+        
+      }
     }
 
     .walk-img {

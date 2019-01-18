@@ -172,9 +172,9 @@ footer {
 }
 .home .intro {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   color: #23293B;
 }
 .home .intro h1 {
@@ -234,6 +234,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 25%;
+  height: 24px;
+  background-color: #22283A;
+  color: white;
+  cursor: pointer;
+  margin: 15px 0;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #ffffff;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
