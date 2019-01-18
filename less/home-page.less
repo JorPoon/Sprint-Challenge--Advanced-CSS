@@ -4,12 +4,39 @@
 
  .home {
 
+
     
 
   .intro {
 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: @header-font-color;
+
+    h1{
+      font-size: 3.6rem;
+      padding: 10px 0;
+    }
+
+    nav {
+      display: flex;
+      padding: 10px 0;
+
+      a {
+        text-decoration: none;
+        padding: 0 20px;
+        font-size: 1.5rem;
+        color: black;
+        margin: 5px 0;
+      }
+      
+    }
+
     h2 {
       padding: 15px;
+      align-self: flex-start;
     }
 
     p {
@@ -33,7 +60,7 @@
 
   .visit-planets {
     padding: 15px;
-    background: blue;
+    
 
     h3 {
       margin-top: 11px;
@@ -62,8 +89,8 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-      }
+      // .btn {
+      // }
     }
 
     .walk-img {

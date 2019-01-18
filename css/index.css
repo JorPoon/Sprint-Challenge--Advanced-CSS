@@ -170,8 +170,31 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #23293B;
+}
+.home .intro h1 {
+  font-size: 3.6rem;
+  padding: 10px 0;
+}
+.home .intro nav {
+  display: flex;
+  padding: 10px 0;
+}
+.home .intro nav a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  color: black;
+  margin: 5px 0;
+}
 .home .intro h2 {
   padding: 15px;
+  align-self: flex-start;
 }
 .home .intro p {
   padding: 0 15px;
@@ -189,7 +212,6 @@ footer {
 }
 .home .visit-planets {
   padding: 15px;
-  background: blue;
 }
 .home .visit-planets h3 {
   margin-top: 11px;
