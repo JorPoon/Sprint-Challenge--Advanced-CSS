@@ -49,6 +49,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+    Favorite concept in preprocessing is the ability to nest classes. It allows a better flow in order of codes in my opinion. Concept that gives me the most trouble is probably mixins because theres a lot of interpolation going on. You dont need it for small projects but maybe i will use it more for when I get more experience.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
